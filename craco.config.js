@@ -9,7 +9,6 @@ module.exports = {
         ...whenProd(
           () => [
             // None of these get added correctly
-            new HtmlWebpackPlugin(),
             new CspHtmlWebpackPlugin(),
           ],
           []
